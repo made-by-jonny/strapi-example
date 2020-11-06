@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programmings",
+  "info": {
+    "name": "programming"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "workout_type": {
+      "type": "string"
+    },
+    "workout": {
+      "type": "richtext"
+    }
+  }
+}

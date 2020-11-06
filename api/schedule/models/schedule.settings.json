@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedules",
+  "info": {
+    "name": "schedule",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Phase": {
+      "type": "string"
+    },
+    "workout": {
+      "model": "programming"
+    }
+  }
+}
